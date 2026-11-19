@@ -1,0 +1,70 @@
+{
+  "leaky_auc": 0.9829897269912751,
+  "real_auc": 0.7289848953935639,
+  "trailing_auc_without": 0.666496622572474,
+  "trailing_auc_with": 0.7289848953935639,
+  "random_split_auc": 0.7632554998283898,
+  "traced_auc": 0.7289848953935641,
+  "traced_auc_matches": true,
+  "traced_fp": 157,
+  "traced_fp_matches": true,
+  "permutation_importance": [
+    {
+      "feature": "trailing_3day_catch_rate",
+      "mean_auc_drop": 0.11315275712715762
+    },
+    {
+      "feature": "tide_stage_start",
+      "mean_auc_drop": 0.058043829594673226
+    },
+    {
+      "feature": "fcst_wind_mph",
+      "mean_auc_drop": 0.04345154825780602
+    },
+    {
+      "feature": "species_targeted",
+      "mean_auc_drop": 0.021544766953261397
+    },
+    {
+      "feature": "days_since_front",
+      "mean_auc_drop": 0.019312948477600435
+    },
+    {
+      "feature": "fcst_wave_height_ft",
+      "mean_auc_drop": 0.006666494278880419
+    },
+    {
+      "feature": "month",
+      "mean_auc_drop": 0.002992048613355802
+    },
+    {
+      "feature": "moon_phase",
+      "mean_auc_drop": 0.002932574827073542
+    },
+    {
+      "feature": "fcst_air_temp_f",
+      "mean_auc_drop": 0.0008253927209258105
+    },
+    {
+      "feature": "party_size",
+      "mean_auc_drop": 0.0006873101040792307
+    },
+    {
+      "feature": "water_temp_f",
+      "mean_auc_drop": 2.792682138477165e-05
+    },
+    {
+      "feature": "trip_type",
+      "mean_auc_drop": -5.89566229231453e-05
+    },
+    {
+      "feature": "trip_hours",
+      "mean_auc_drop": -0.00011946473592334694
+    }
+  ],
+  "trailing_rate_uses_prior_days": true,
+  "partial_dependence_trip_type": {
+    "inshore": 0.6151291042252246,
+    "offshore": 0.5879470696555856
+  }
+}
